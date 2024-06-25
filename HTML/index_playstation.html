@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_playstation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>PlayStation</title>
+</head>
+<body>
+    <header>
+        <img src="img/pic2.jpg" class="banner">
+        <a href="index_main.html" class="logo">PlayStation</a>
+        <nav>
+            <ul>
+              <li><a href="index_pc.html">PC</a></li>
+              <li><a href="index_xbox.html">Xbox</a></li>
+              <li><a href="index_nintendo.html">Nintendo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        window.addEventListener("scroll", function(){
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+    <!--Cartas-->
+    <section class="main_card">
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/22/noticias/1637591202_563947.html" 
+                style="--bg-img: url('./img/ps.n1.png')">
+                <div>
+                    <h1>Kojima Productions abre una nueva división</h1>
+                    <p>El estudio de Hideo Kojima se expande más allá, en donde se focalizará en productos cinematográficos, televisivos y musicales.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas"
+                href="https://as.com/meristation/2021/11/23/noticias/1637653785_363381.html"
+                style="--bg-img: url('./img/ps.n2.jpg')">
+                <div>
+                    <h1>Hitman III anuncia un segundo año de contenidos</h1>
+                    <p>Hitman III contará con un segundo año de contenidos así como varias novedades en distintas plataformas, así mismo como soporte para realidad virtual y ray tracing.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/22/noticias/1637616748_917503.html"
+                style="--bg-img: url('./img/ps.n3.jpg')">
+                <div>
+                    <h1>Marvel's Avengers: Spider-Man se muestra por primera vez</h1>
+                    <p>Crystal Dynamics comparte un vídeo con gameplay de su próximo superhéroe que llegará al juego de Vengadores, solo en PS4 y PS5.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/22/noticias/1637614990_565876.html" 
+                style="--bg-img: url('./img/ps.n4.jpg')">
+                <div>
+                    <h1>Horizon Forbidden West comparte sus mejoras</h1>
+                    <p>Guerrilla Games profundiza en los sistemas de su nuevo mundo, el comportamiento de las tribus y los personajes no jugables.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/22/noticias/1637583045_155898.html" 
+                style="--bg-img: url('./img/ps.n5.jpg')">
+                <div>
+                    <h1>Call of Duty: Vanguard</h1>
+                    <p>PlayStation elimina de su página web oficial toda mención a Call of Duty: Vanguard. La polémica alrededor de Activision tiene sus primeras consecuencias.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/22/noticias/1637572192_711590.html" 
+                style="--bg-img: url('./img/ps.n6.jpg')">
+                <div>
+                    <h1>Battlefield 2042, comenzo con malas reseñas</h1>
+                    <p>Los bugs y los problemas que atraviesa el título de EA no han pasado desapercibidos por parte de cada jugador.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+</body>
+</html>

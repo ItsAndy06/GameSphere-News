@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_pc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <title>PC</title>
+</head>
+<body>
+  <!--Header principal-->
+  <header>
+    <img src="img/pic1.jpg" class="banner">
+      <a href="index_main.html" class="logo">PC</a>
+      <nav>
+        <ul>
+          <li><a href="index_playstation.html">PlayStation</a></li>
+          <li><a href="index_xbox.html">Xbox</a></li>
+          <li><a href="index_nintendo.html">Nintendo</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <script>
+    window.addEventListener("scroll", function(){
+      const header = document.querySelector('header');
+      header.classList.toggle('sticky', window.scrollY > 0);
+    });
+  </script>
+
+  <!--Cartas-->
+  <section class="main_card">
+    <div class="card_content">
+      <a class="cartas" href="https://arcane.com/es-mx/"
+        style="--bg-img: url('./img/pc.c2.jpg')">
+        <div>
+          <h1>League of Legends</h1>
+          <p>Dos hermanas. Dos ciudades. Un descubrimiento que cambiará el mundo para siempre.</p>
+        </div>
+      </a>
+    </div>
+    <div class="card_content">
+      <a class="cartas" href="https://store.rockstargames.com/es/game/buy-grand-theft-auto-the-trilogy-the-definitive-edition"
+        style="--bg-img: url('./img/pc.c8.jpg')">
+        <div>
+          <h1>Grand Theft Auto</h1>
+          <p>Tres ciudades famosas, tres historias épicas que definieron un género de la trilogía original de Grand Theft Auto.</p>
+        </div>
+      </a>
+    </div>
+    <div class="card_content">
+      <a class="cartas" href="https://blog.latam.playstation.com/2021/10/20/god-of-war-2018-llegara-a-pc/"
+        style="--bg-img: url('./img/pc.c4.jpg')">
+        <div>
+          <h1>God of War</h1>
+          <p>El ultimo juego de God of War llegará a PC con nuevas mejoras graficas para poder crear una calidad visual sorprendente y única para la plataforma.</p>
+        </div>
+      </a>
+    </div>
+    <div class="card_content">
+      <a class="cartas" href="https://www.callofduty.com/"
+        style="--bg-img: url('./img/pc.c15.jpg')">
+        <div>
+          <h1>Call of Duty: Warzone tardará un poco más en llegar</h1>
+          <p>El viernes 19 de noviembre, Activision anunció que la temporada 1 de Call of Duty: Vanguard y el lanzamiento de Warzone Pacific sufrieron un retraso de una semana.</p>
+        </div>
+      </a>
+    </div>
+    <div class="card_content">
+      <a class="cartas" href="https://t1.gg/"
+        style="--bg-img: url('./img/pc.c12.png')">
+        <div>
+          <h1>Faker renueva con T1</h1>
+          <p>Faker acaba de renovar su contrato con T1 y confirmó que seguirá jugando para la organización coreana en 2022.</p>
+        </div>
+      </a>
+    </div>
+    <div class="card_content">
+      <a class="cartas" href="https://genshin.mihoyo.com/en/news"
+        style="--bg-img: url('./img/pc.c10.jpg')">
+        <div>
+          <h1>Genshin Impact</h1>
+          <p>MiHoYo celebrará en Genshin Impact el evento Gremio de Aventureros en Twitch que permite a los jugadores recibir ítems en el juego por suscribirse en la plataforma de Amazon.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+</body>
+</html>

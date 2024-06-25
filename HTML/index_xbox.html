@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_xbox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Xbox</title>
+</head>
+<body>
+    <header>
+        <img src="img/pic3.png" class="banner">
+        <a href="index_main.html" class="logo">Xbox</a>
+        <nav>
+            <ul>
+              <li><a href="index_pc.html">PC</a></li>
+              <li><a href="index_playstation.html">PlayStation</a></li>
+              <li><a href="index_nintendo.html">Nintendo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        window.addEventListener("scroll", function(){
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+    <!--Cartas-->
+    <section class="main_card">
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/23/noticias/1637695017_233297.html" 
+                style="--bg-img: url('./img/xb.n1.jpg')">
+                <div>
+                    <h1>Halo Infinite: evento Fracture Tenrai</h1>
+                    <p>343 Industries celebra el primer evento gratuito del multijugador de Halo Infinite.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas"
+                href="https://as.com/meristation/2021/11/23/noticias/1637679424_551206.html"
+                style="--bg-img: url('./img/xb.n2.jpg')">
+                <div>
+                    <h1>Xbox estrena un museo virtual por su 20 aniversario</h1>
+                    <p>Los jugadores pueden explorar la historia de Xbox y de las distintas consolas y épocas que ha lanzado Microsoft.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/23/noticias/1637661567_506191.html"
+                style="--bg-img: url('./img/xb.n3.jpeg')">
+                <div>
+                    <h1>Xbox no planea más juegos con FPS Boost</h1>
+                    <p>Microsoft subrayó su compromiso con su idea de “preservar y mejorar los juegos”, lo cual no habrá mas retrocompatibilidad por ahora.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/22/noticias/1637582583_604676.html" 
+                style="--bg-img: url('./img/xb.n4.jpg')">
+                <div>
+                    <h1>SEGA aclara que no lanzará exclusivos en Xbox</h1>
+                    <p>SEGA colaborará con Microsoft para desarrollar un ambicioso proyecto, que se valdrá de la tecnología en la nube Azure.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/22/noticias/1637574358_836695.html" 
+                style="--bg-img: url('./img/xb.n5.jpg')">
+                <div>
+                    <h1>Mass Effect: Legendary Edition estará en Xbox Game Pass</h1>
+                    <p>La colección remasterizada de Mass Effect aparece marcada como título de Xbox Game Pass en su tienda en Polonia.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/19/noticias/1637352688_032889.html" 
+                style="--bg-img: url('./img/xb.n6.jpg')">
+                <div>
+                    <h1>Hideki Kamiya se disculpa una vez más con Microsoft</h1>
+                    <p>El máximo responsable de Platinum Games profundiza en las razones que llevaron a la cancelación de su videojuego exclusivo para Xbox One.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+</body>
+</html>

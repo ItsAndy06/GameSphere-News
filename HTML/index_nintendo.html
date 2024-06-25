@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_nintendo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Nintendo</title>
+</head>
+<body>
+    <header>
+        <img src="img/pic5.png" class="banner">
+        <a href="index_main.html" class="logo">Nintendo</a>
+        <nav>
+            <ul>
+            <li><a href="index_pc.html">PC</a></li>
+              <li><a href="index_playstation.html">PlayStation</a></li>
+              <li><a href="index_xbox.html">Xbox</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        window.addEventListener("scroll", function(){
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+    <!--Cartas-->
+    <section class="main_card">
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/23/noticias/1637663937_066404.html" 
+                style="--bg-img: url('./img/nt.n1.jpg')">
+                <div>
+                    <h1>Black Friday: Nintendo Switch la mas deseada</h1>
+                    <p>Un análisis sitúa a la consola de Nintendo como no solo la consola más demandada para este Black Friday, sino también de toda la tecnología.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas"
+                href="https://as.com/meristation/2021/11/23/noticias/1637660648_893364.html"
+                style="--bg-img: url('./img/nt.n2.jpg')">
+                <div>
+                    <h1>Pokémon GO: nuevo código y caja de regalos gratis</h1>
+                    <p>Los jugadores de iOS y Android ya pueden reclamar los códigos promocionales con motivo del evento de Ed Sheeran.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/23/noticias/1637654391_810349.html"
+                style="--bg-img: url('./img/nt.n3.jpg')">
+                <div>
+                    <h1>Kirby y la Tierra Olvidada se encuentran nuevos detalles</h1>
+                    <p>Se trata de un juego de acción y aventura en el que los jugadores ayudan a Kirby a salvar a las criaturas secuestradas de las fuerzas del mal segun ESRB.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/23/noticias/1637644738_407773.html" 
+                style="--bg-img: url('./img/nt.n4.jpg')">
+                <div>
+                    <h1>Nintendo of America responde a la polémica de Activision</h1>
+                    <p>Las acusaciones de abuso sexual y discriminación vertidas sobre Bobby Kotick (CEO) han provocado la reacción de Doug Bowser, presidente de NoA.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/22/noticias/1637569856_113259.html" 
+                style="--bg-img: url('./img/nt.n5.jpg')">
+                <div>
+                    <h1>Pokémon Diamante Brillante y Perla Reluciente</h1>
+                    <p>Los remakes de Sinnoh para Nintendo Switch se convierten en el segundo mejor estreno del año en formato físico en el país británico.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card_content">
+            <a class="cartas" href="https://as.com/meristation/2021/11/22/noticias/1637569012_055948.html" 
+                style="--bg-img: url('./img/nt.n6.jpg')">
+                <div>
+                    <h1>Pokémon GO – Día de la Comunidad de diciembre</h1>
+                    <p>Community Day anuncio que se recuperará los Pokémon destacados de anteriores días de la Comunidad. </p>
+                </div>
+            </a>
+        </div>
+    </section>
+</body>
+</html>

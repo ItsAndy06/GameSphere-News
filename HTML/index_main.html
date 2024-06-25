@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_end_main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Main_Page</title> 
+</head>
+<body>
+    <div class="menu_btn">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <div class="contenedor">
+        
+        <!--Navegación-->
+        <nav class="nav_prin">
+            <img src="img/logo_fin.png" class="logo_nav">
+            <ul class="menu_nav show">
+                <li>
+                    <a href="index_pc.html">PC</a>
+                </li>
+                <li>
+                    <a href="index_playstation.html">PlayStation</a>
+                </li>
+                <li>
+                    <a href="index_xbox.html">Xbox</a>
+                </li>
+                <li>
+                    <a href="index_nintendo.html">Nintendo</a>
+                </li>
+            </ul>
+            <ul class="menu_nav_der">
+                <li>
+                    <a href="#">
+                        <input type="hidden"></input>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!--Noticias Destacada-->
+        <header class="dest">
+            <h1>剣 闘 士</h1>
+        </header>
+    </div>
+
+    <!--Cartas-->
+    <div class="cont_cad">
+        <div class="carta">
+            <div class="content">
+                <h2>01</h2>
+                <h3>God of War en PC!</h3>
+                <p>Sony confirmó que God of War llegará a PC el 14 de enero de 2022. Al igual que otros juegos de PlayStation en Pc, se ofrecerá por medio de Steam y la Epic Games Store y tendra un precio de 50 dólares.</p>
+                <a href="https://sms.playstation.com/stories">Leer más</a>
+            </div>
+        </div>
+        <div class="carta">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Halo Infinite</h3>
+                <p>La beta del multijugador de Halo Infinite esta ahora en stream para todos los jugadores de Xbox y PC esto como parte de la celebración de Microsoft y 343 Industries del 20º aniversario de Xbox y Halo.</p>
+                <a href="https://www.xbox.com/es-MX/games/halo-infinite">Leer más</a>
+            </div>
+        </div>
+        <div class="carta">
+            <div class="content">
+                <h2>03</h2>
+                <h3>The Game Awards 2021</h3>
+                <p>Geoff Keighley anuncio la lista de nominado para The Game Awards 2021. Los seis títulos que pueden llevarse el premio a mejor juego del año son los que se ven en la imagen de arriba: Deathloop, It Takes Two, Metroid Dread, Psychonauts 2, Ratchet & Clank: Una dimensión aparte y Resident Evil: Village.</p>
+                <a href="https://thegameawards.com/">Leer más</a>
+            </div>
+        </div>
+        <div class="carta">
+            <div class="content">
+                <h2>04</h2>
+                <h3>Wii U recibirá un nuevo juego en 2021</h3>
+                <p>Este juego es Captain U, se trata de un universo familiar donde serás reconocido con el mismo nombre, y tu misión será localizar a la princesa desaparecida, mientras estás equipado con un arma legendaria</p>
+                <a href="https://nintenduo.com/wii-u-recibe-su-posible-ultimo-juego-captain-u/">Leer más</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".carta"),{
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 1
+	});
+    </script>
+    <!--Redes-->
+    <section class="redes">
+        <div class="iconos">
+            <a href="https://www.facebook.com/andy.cajamarca509/">
+                <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-facebook-f"></span>
+                </div>
+                <div class="texto">Facebook</div>
+            </a>
+            <a href="https://twitter.com/acajamarca01">
+                <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-twitter"></span>
+                </div>
+                <div class="texto">Twitter</div>
+            </a>
+            <a href="https://www.instagram.com/andy36781/">
+                <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span class="fab fa-instagram"></span>
+                </div>
+                <div class="texto">Instagram</div>
+            </a>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div class="footer_cont">
+            <div class="col_iz">
+                <img src="img/logo_fin.png" alt="" class="logo_foot">
+                <p class="r_text">© Creado Por Andy. Todos los Derechos Reservados</p>
+            </div>
+
+            <div class="col_der">
+                <h1>Boletin Informativo</h1>
+                <div class="borde"></div>
+                <p class="text_i">Ingresa tu Email para que recibas nuestras noticias. </p>
+                <form id="mail_form" class="boletin_form" name="mail_form" method="post" action="enviar2.php">
+                    <input type="text" class="text_f" required="required" name="email" placeholder="Ingresa tu Email">
+                    <input type="submit" class="btn" value="Enviar">
+                </form> 
+            </div>
+        </div>
+    </footer>
+    <script src="javascript_main.js"></script>
+</body>
+</html>
